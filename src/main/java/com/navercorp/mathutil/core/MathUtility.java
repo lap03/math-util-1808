@@ -20,8 +20,9 @@ public class MathUtility {
     //Quy ước 0! = 1! = 1
     //Bài này chỉ làm từ 0 -> 20! vì 21! vượt (long)  
     public static long getFactorial(int n) {
-        long product = 10; //tich-ket qua phep nhan
-
+        long product = 1; //tich-ket qua phep nhan
+        //update code again to see green 4e
+        
         if (n < 0 || n > 20) {
             throw new IllegalArgumentException("Ivalid n. n must be between 0..20");
         }
