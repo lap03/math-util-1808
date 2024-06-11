@@ -12,6 +12,12 @@ import javax.swing.JOptionPane;
  * @author HP
  */
 public class MathUtil1808 {
+
+    //UPDATE MODIFY CODE DIRECTLY IN SERVER - TO SIMULATE A CASE WHERE TEAM MEMBER
+    //UPLOAD CODE
+    public void SayHelloFromServer() {
+        
+    }
     
     public static void main(String[] args) {
         //cách 2: test hàm = cách popup
