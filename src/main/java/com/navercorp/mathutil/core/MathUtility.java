@@ -22,18 +22,14 @@ public class MathUtility {
     public static long getFactorial(int n) {
         long product = 1; //tich-ket qua phep nhan
         //update code again to see green 4e
-        
+
         if (n < 0 || n > 20) {
             throw new IllegalArgumentException("Ivalid n. n must be between 0..20");
         }
-        
+
         if (n == 0 || n == 1) {
             return 1;
         }
-        
-        for (int i = 1; i <= n; i++) {
-            product *= i;
-        }
-        return product;
+        return n * getFactorial(n - 1);
     }
 }
