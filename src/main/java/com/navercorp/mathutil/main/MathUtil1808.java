@@ -13,6 +13,12 @@ import javax.swing.JOptionPane;
  */
 public class MathUtil1808 {
     
+    
+    //modify code in local, later upload to server
+    public static void printMsg() {
+    
+    }
+    
     public static void main(String[] args) {
         //cách 2: test hàm = cách popup
         int n = 0;
